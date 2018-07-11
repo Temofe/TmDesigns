@@ -1,0 +1,140 @@
+
+@media (max-width:1018px) {
+
+  .content-contact{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: green;
+  }
+   .address{
+    float: left;
+    clear: both;
+    color: white;
+    margin-top: 35px;
+    margin-right:0px;
+  }
+  input[type='text'],input[type='email']{
+  width: 100%;
+  }
+  textarea{
+    border-radius: 4px;
+    background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  font-size: 14px;
+  padding: 2px 2px 2px 4px;
+  font-weight: normal;
+  width: 100%;
+  line-height: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  .content{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+  }
+  #slideshow{
+    margin-top: 100px;
+    width: 100%;
+
+  }
+  .motive{
+  width: 80%;
+  margin-top: -20%;
+  }
+  .title_big{
+    height: auto;
+    text-align: left;
+    font-size: 190%;
+  }
+
+}
+@media screen and (max-width:1000px) {
+  #main_menu ul{
+    display: none;
+  }
+  #main_menu{
+
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+
+  #main_menu select{
+    display: block;
+    float: right;
+    overflow: scroll;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width:820px) {
+  .motive{
+    background-color: green;
+    width: 90%;
+    margin-top: -120px;
+    height: auto;
+  }
+  .title_big{
+    width: 70%;
+    height: 30px;
+    margin: 0;
+    text-align: lef
+  }
+  .title_big span{
+    text-align: left;
+  }
+}
+optgroup , option, select{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #555;
+  font-weight: lighter;
+  font-style: normal;
+
+  line-height: 30px;
+}
+
+optgroup{
+  padding-bottom: 9px;
+}
+select{
+  display: none;
+  height: 30px;
+  border-radius: 4px;
+  width: 200px;
+  overflow-x: scroll;
+}
+@media screen and (max-width:300px) {
+  .container .logo{
+    margin: 0 auto ;
+  }
+  #main_menu {
+    clear: right;
+    width: 100%;
+
+  }
+  #main_menu select{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width:560px) {
+  .container .logo{
+
+  }
+  #main_menu {
+    clear: right;
+    width: 100%;
+
+  }
+  #main_menu select{
+    margin-top: 0px;
+    width: 100%;
+
+    float: right;
+  }
+}
+
+#use{
+  color: blue;
+}
